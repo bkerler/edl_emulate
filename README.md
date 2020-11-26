@@ -12,8 +12,16 @@ pip3 install --user https://github.com/qilingframework/qiling/archive/dev.zip
 
 ## Run
 
+In one window (server)
 ```bash
-./qiling_emulate_edl.py
+./qiling_emulate_edl.py "0000000000000000_bdaf51b59ba21d8a_FHPRG.bin"
 ```
+
+In another window (client)
+```bash
+./client.py
+```
+
+![Demo](emulate_edl.gif)
 
 ## Have fun !
